@@ -1,0 +1,61 @@
+import java.util.Scanner;
+public class Zoo {
+    static Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        
+//        Hipo hipo1=new Hipo("javier","camboya",627.7,false);
+//        Jirafa jeff=new Jirafa("Hector", 500.6, 5.1);
+//        System.out.println(hipo1.toString());
+//        System.out.println(jeff.toString());
+//        Leopardo leo= new Leopardo();
+//        //System.out.println(leo.toString());
+//
+//        System.out.print("Ingresa el nombre del animal: ");
+//        String nombre = input.next();
+//        leo.setNombre(nombre);
+//        
+//        System.out.print("Ingresa cantidad de manchas: ");
+//        int manchas = input.next();
+//        leo.setManchas(manchas);
+//        leo.setComio(false);
+//        
+//        //System.out.print("El animal corre si o no: ");
+//        //boolean come = input.next();
+//        
+//        System.out.println(leo.toString());
+//        leo.alimentar();
+//        System.out.println("alimentando al dino");
+//        System.out.println(leo.toString());
+//        input.close();
+    }
+    public void menu (){
+        int opcion=0;
+        while(opcion!=4){
+            System.out.println("***menu***");
+            System.out.println("1.-opción 1");
+            System.out.println("2.-opción 2");
+            System.out.println("3.-opción 3");
+            System.out.println("4.-salir");
+            opcion = input.nextInt();
+            switch (opcion){
+                case 1:
+                    System.out.print("opcion 1");
+                    break;
+                case 2:
+                    System.out.print("opcion 2");
+                    break;
+                case 3:
+                    System.out.print("opcion 3");
+                    break;
+                case 4:
+                    System.out.print("saliendo");
+                    break;
+                default:
+                    System.out.print("opcion invalida");
+                    break;
+            }
+    }
+        
+        
+    }
+}
